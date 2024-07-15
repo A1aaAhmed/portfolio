@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+nav a.nav-link{
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+nav ul li {
+  
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-size: medium;
+}
+.navbar-nav>li>a{
+margin-right: 0.70rem;
+margin-left: 0.70rem;
+}
+.container-fluid{
+  height: 9.375rem;
+
+}
+.navbar-nav >li >a.active , .navbar-nav>li>a:focus{
+  border-bottom: 0.1875rem solid blue;
+  color: blue;
+  
+}
+.navbar-nav >li >a.active , .navbar-nav>li>a:hover{
+  border-top: 0.1875rem solid blue;
+
+  
 }

@@ -1,8 +1,10 @@
 import './App.css';
-//import './'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import  '../node_modules/bootstrap/dist/js/bootstrap.bundle'
+import Navbar from './components/nav'
 function App() {
   return (
-   <h1>Alaa Ahmed</h1>
+    <Navbar/>
   );
 }
 
