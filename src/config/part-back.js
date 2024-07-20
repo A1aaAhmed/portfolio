@@ -1,4 +1,5 @@
 const Pc={
+  fullScreen:true,
     particles: {
       number: {
         value: 6,
@@ -106,6 +107,9 @@ const Pc={
         }
       }
     },
-    retina_detect: true
+    retina_detect: true,
+   
+    
+
   };
 export default Pc;

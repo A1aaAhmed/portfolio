@@ -39,6 +39,9 @@
 }
 
 /************************* navbar *************************/
+.navbar{
+  z-index: 0 !important;
+}
 nav a.nav-link{
   font-weight: 500;
   letter-spacing: 0.0375rem;
@@ -70,9 +73,7 @@ margin-left: 0.70rem;
 
 
 /************************* header *************************/
-.header-wraper{
-  
-}
+
 .main-info{
   display: flex;
   flex-direction: row;
@@ -92,10 +93,27 @@ align-content: space-around;
 
 
 }
+
 .particles canvas{
-  z-index: 0;
+  z-index: 3 !important;
   position:absolute;
   width: 100%;
   height: 100%;
   
+}
+section{
+
+  height: 38rem;
+
+
+}
+.sec-div{
+  padding: 5rem;
+  margin: 10rem;
+  padding-top: 4rem;
+  border-radius: 2rem;
+  background-color:rgb(68, 92, 143);
+  color: white;
+  height: 35rem;
+  font-size: larger;
 }
