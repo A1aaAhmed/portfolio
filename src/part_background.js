@@ -10,7 +10,7 @@ import Pc from "./config/part-back";
 
 const ParticlesComponent = (props) => {
 
-  const [init, setInit] = useState(false);
+  const [, setInit] = useState(false);
   // this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {

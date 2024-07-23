@@ -6,13 +6,15 @@ import Header  from'./components/header';
 import { Routes, Route } from 'react-router-dom';
 import ParticlesComponent from './part_background.js'
 import AboutMe from './components/AboutMe.jsx';
+import Education from './components/education.jsx';
+import Experience from './components/Experience.jsx';
 function App() {
   return (
     <>
       <Routes>
       <Route path="/" element={<MainContent />} />
       </Routes>
-    <MainContent/>
+
     <ParticlesComponent id="particles"/>
     </>
   );
@@ -22,6 +24,8 @@ const MainContent = () => {
     <><Navbar />
     <Header />
     <AboutMe/>
+    <Education/>
+    <Experience/>
     </> 
   );
 };

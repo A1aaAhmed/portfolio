@@ -39,14 +39,28 @@
 }
 
 /************************* navbar *************************/
+.navbar,.container-fluid,.navbar-brand{
+  height: 7.5rem;
+
+
+}
 .navbar{
-  z-index: 0 !important;
+z-index:0 !important;
+}
+.logo{
+  padding: 1rem;
+}
+.navbar-collapse.show{
+  background-color:rgb(230, 236, 248);
+
+
 }
 nav a.nav-link{
   font-weight: 500;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
+
 nav ul li {
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
@@ -56,10 +70,7 @@ nav ul li {
 margin-right: 0.70rem;
 margin-left: 0.70rem;
 }
-.container-fluid{
-  height: 9.375rem;
 
-}
 .navbar-nav >li >a.active , .navbar-nav>li>a:focus{
   border-bottom: 0.1875rem solid blue;
   color: blue;
@@ -68,8 +79,10 @@ margin-left: 0.70rem;
 .navbar-nav >li >a.active , .navbar-nav>li>a:hover{
   border-top: 0.1875rem solid blue;
 
-  
 }
+
+
+
 
 
 /************************* header *************************/
@@ -95,25 +108,62 @@ align-content: space-around;
 }
 
 .particles canvas{
-  z-index: 3 !important;
+  z-index: 1 !important;
   position:absolute;
   width: 100%;
   height: 100%;
-  
 }
 section{
 
-  height: 38rem;
+  height: 30rem;
+  padding-top: 7.5rem;
+
 
 
 }
+section{
+  height: 40rem;
+  padding-top: 7.5rem;
+  position: relative;
+  z-index: -1;
+ 
+  
+  
+}
 .sec-div{
-  padding: 5rem;
-  margin: 10rem;
-  padding-top: 4rem;
+  align-content: center;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  margin: 2rem;
+  margin-top:1rem;
   border-radius: 2rem;
   background-color:rgb(68, 92, 143);
   color: white;
-  height: 35rem;
+  height: 30rem;
   font-size: larger;
 }
+/**********************************/
+.sec-head{
+margin-bottom: 1rem ;
+}
+/********************************/
+#carouselExampleIndicators{
+position: relative;
+height: 19rem;
+
+}
+
+.carousel-inner {
+  height: 19rem; /* Set your desired height */
+}
+
+.carousel-item {
+  height: 100%; /* Ensure the items take the full height of the carousel */
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down; /* Ensure the image covers the carousel without distortion */
+}
+/**************************/
