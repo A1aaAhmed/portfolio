@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
 <nav className="navbar sticky-top  navbar-expand-lg bg-white">
   <div className="container-fluid">
-  <a className="navbar-brand" href='/'onClick={handleLogoClick}><img className= 'logo'src ={logo} alt='Alaa Ahmed logo'/></a>
+  <a className="navbar-brand" href='/portfolio'onClick={handleLogoClick}><img className= 'logo'src ={logo} alt='Alaa Ahmed logo'/></a>
   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Routes>
-      <Route path="/" element={<MainContent />} />
+      <Route path="/portfolio" element={<MainContent />} />
       </Routes>
 
     <ParticlesComponent id="particles"/>
