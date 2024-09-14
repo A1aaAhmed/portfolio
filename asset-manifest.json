@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e66b2c8c.css",
-    "main.js": "/portfolio/static/js/main.e2f83060.js",
+    "main.js": "/portfolio/static/js/main.148746cd.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/logo-nass.png": "/portfolio/static/media/logo-nass.9643111d7c83027bf48b.png",
     "static/media/1.jfif": "/portfolio/static/media/1.2a7c2e5f7e808cc7379f.jfif",
     "static/media/logo.png": "/portfolio/static/media/logo.66a5ce3ff9b688671002.png",
     "index.html": "/portfolio/index.html",
     "main.e66b2c8c.css.map": "/portfolio/static/css/main.e66b2c8c.css.map",
-    "main.e2f83060.js.map": "/portfolio/static/js/main.e2f83060.js.map",
+    "main.148746cd.js.map": "/portfolio/static/js/main.148746cd.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e66b2c8c.css",
-    "static/js/main.e2f83060.js"
+    "static/js/main.148746cd.js"
   ]
 }
